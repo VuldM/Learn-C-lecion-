@@ -51,7 +51,7 @@ void FillImage(int row, int col)
         FillImage(row, col + 1);
     }
 }
-
+Console.Clear();
 PrinyImage(pic);
 FillImage(13, 13);
 PrinyImage(pic);
